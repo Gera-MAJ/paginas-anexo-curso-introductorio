@@ -144,3 +144,29 @@
         color: beige;
         font-size: 1.5rem;
     }
+
+@media screen and (max-width: 450px) {
+    .conteiner {
+        width: 100vw;
+    }
+
+    .part1 {
+        flex-direction: column;
+    }
+        .part1 .video,
+        .part1 .pdf1 {
+            width: 100vw;
+        }
+
+    .part2 {
+        flex-direction: column;
+    }
+        .part2 .video2,
+        .part2 .pdf2 {
+            width: 100vw;
+        }
+
+    .pdf3 {
+        width: 100vw;
+    }    
+}    
