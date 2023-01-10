@@ -49,8 +49,9 @@
     width: 30rem;
     margin: 0.5rem;
 }
-    .video video {
+    .video iframe {
         width: 100%;
+        min-width: 300px;
         height: 20rem;
     }
         .video h4 {
@@ -165,11 +166,11 @@
 /* Esta es la parte de lo que aparece cuando carga la pagina */
 
     #charge {
-        border: 15px solid #c4c2d2;
-        border-top-color: #7f96b3;
+        border: 15px solid #c4c2d200;
+        border-top-color: #2f71c2;
         border-top-style: inset; 
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
         border-radius: 100%;
         position: absolute;
         top: 0;
@@ -182,12 +183,35 @@
         -o-animation: girar 1.5s linear infinite;
         animation: girar 1.5s linear infinite;
     }
+
+    #charge2 {
+        border: 15px solid #c4c2d200;
+        border-top-color: #2f71c2;
+        border-top-style: inset; 
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    
+        -webkit-animation: rotar 1.5s linear infinite;
+        -o-animation: rotar 1.5s linear infinite;
+        animation: rotar 1.5s linear infinite;
+    }
     
     @keyframes girar {
         from {transform: rotate(0deg);}
         to {transform: rotate(360deg);}
     }
-
+    @keyframes rotar {
+        from {transform: rotate(360deg);}
+        to {transform: rotate(0deg);}
+    }
+   
 @media screen and (max-width: 450px) {
     .conteiner {
         width: 100vw;
