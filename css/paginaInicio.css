@@ -212,7 +212,8 @@
         to {transform: rotate(0deg);}
     }
    
-@media screen and (max-width: 450px) {
+    /*Aca va todo lo que corresponde a la vista movil*/
+@media screen and (max-width: 500px) {
     .conteiner {
         width: 100vw;
     }
@@ -222,18 +223,25 @@
     }
         .part1 .video,
         .part1 .pdf1 {
-            width: 100vw;
+            width: 95vw;
         }
 
     .part2 {
         flex-direction: column;
+        margin: 0px;
     }
         .part2 .video2,
         .part2 .pdf2 {
-            width: 100vw;
+            width: 95vw;
         }
 
     .pdf3 {
-        width: 100vw;
+        width: 95vw;
+        margin: 0px;
     }    
+    .video2 iframe,
+    .pdf2 iframe {
+        margin: 0px;
+    }
+    
 }    
