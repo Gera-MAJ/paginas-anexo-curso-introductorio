@@ -91,7 +91,7 @@
 .part2 {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: 10px; 
 }
     .pdf2 {
         width: 30rem;
@@ -217,7 +217,10 @@
     .conteiner {
         width: 100vw;
     }
-
+    .title h3,
+    .title p{
+        font-size: 1.2rem;
+    }
     .part1 {
         flex-direction: column;
     }
@@ -225,11 +228,21 @@
         .part1 .pdf1 {
             width: 95vw;
         }
+    .video h4,
+    .video p,
+    .pdf1 h4{
+        font-size: 1rem;
+    }
+        .pdf1 h4{
+            text-align: center;
+            margin-bottom: 0.7em;
+        }
 
     .part2 {
         flex-direction: column;
         margin: 0px;
     }
+
         .part2 .video2,
         .part2 .pdf2 {
             width: 95vw;
@@ -244,4 +257,7 @@
         margin: 0px;
     }
     
+    .enlace h3{
+        font-size: 1.1rem;
+    }
 }    
