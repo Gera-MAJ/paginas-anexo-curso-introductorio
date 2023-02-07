@@ -248,6 +248,11 @@
             width: 95vw;
         }
 
+            .pdf2 h3,
+            .video2 h3,
+            .pdf3 h3 {
+                font-size: 1rem;
+            }
     .pdf3 {
         width: 95vw;
         margin: 0px;
