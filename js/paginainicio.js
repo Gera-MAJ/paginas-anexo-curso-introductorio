@@ -12,7 +12,9 @@ if (scrollear > 0){
 window.onload = function(){
     
     let conteiner = document.getElementById("conteiner-charge")
-
+    let fondoconteiner = document.getElementById("conteinerPrincipal")
+        
     conteiner.style.visibility = "hidden"
     conteiner.style.opacity = "0"
+    fondoconteiner.style.visibility = "visible"
 }
